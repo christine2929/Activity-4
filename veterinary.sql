@@ -87,3 +87,17 @@ VALUES
 (8, 'Phoenix', 'Cat', 'Egyptian Mau', '2020-07-30', 'Male', 'Silver Spotted', 18),
 (9, 'Sapphire', 'Cat', 'Ragdoll', '2021-04-09', 'Female', 'Blue Bicolor', 19),
 (10, 'Thor', 'Cat', 'Norwegian Forest', '2016-10-15', 'Male', 'Brown Tabby', 20);
+
+INSERT INTO appointments (appointid, animalid,
+appointdate, reason)
+VALUES
+(1, 1, '2025-11-01', 'Annual vaccination'),
+(2, 2, '2025-11-03', 'Routine check-up'),
+(3, 3, '2025-11-05', 'Skin allergy treatment'),
+(4, 4, '2025-11-07', 'Dental cleaning'),
+(5, 5, '2025-11-09', 'Injury examination'),
+(6, 6, '2025-11-11', 'Spay/Neuter consultation'),
+(7, 7, '2025-11-13', 'Digestive issues follow-up'),
+(8, 8, '2025-11-15', 'Fever and lethargy'),
+(9, 9, '2025-11-17', 'Weight management advice'),
+(10, 10, '2025-11-19', 'Vaccination booster');
