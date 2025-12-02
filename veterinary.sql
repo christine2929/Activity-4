@@ -74,3 +74,16 @@ VALUES
 (8, 'Niur', 'Marasigan', 'Parañaque City', '09248901234', 'niurn@email.com'),
 (9, 'Rafael', 'Ilagan', 'Alabang City', '09259012345', 'rafael.ilagan@email.com'),
 (10, 'Dian', 'Ilagan', 'Alabang City', '09260123456', 'dianne.ilagan@email.com');
+
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid)
+VALUES
+(1, 'Misty', 'Cat', 'British Shorthair', '2019-05-12', 'Female', 'Blue', 11),
+(2, 'Oreo', 'Cat', 'Tuxedo', '2020-08-25', 'Male', 'Black/White', 12),
+(3, 'Ginger', 'Cat', 'Domestic Shorthair', '2018-11-03', 'Female', 'Orange Tabby', 13),
+(4, 'Smokey', 'Cat', 'Russian Blue', '2021-02-14', 'Male', 'Gray', 14),
+(5, 'Chloe', 'Cat', 'Birman', '2017-09-18', 'Female', 'Seal Point', 15),
+(6, 'Leo', 'Cat', 'Savannah', '2019-12-07', 'Male', 'Spotted Brown', 16),
+(7, 'Mochi', 'Cat', 'Scottish Fold', '2022-03-22', 'Female', 'Fluffy Gray', 17),
+(8, 'Phoenix', 'Cat', 'Egyptian Mau', '2020-07-30', 'Male', 'Silver Spotted', 18),
+(9, 'Sapphire', 'Cat', 'Ragdoll', '2021-04-09', 'Female', 'Blue Bicolor', 19),
+(10, 'Thor', 'Cat', 'Norwegian Forest', '2016-10-15', 'Male', 'Brown Tabby', 20);
